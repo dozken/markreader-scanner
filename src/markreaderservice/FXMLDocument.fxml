@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="markreaderservice.FXMLDocumentController">
+    <children>
+      <Button fx:id="open" layoutX="23.0" layoutY="88.0" onAction="#handleOpenAction" text="Choose Folder" />
+      <Label fx:id="pathLabel" layoutX="23.0" layoutY="25.0" text="Absolute Path:" />
+      <TextField fx:id="pathText" layoutX="23.0" layoutY="50.0" prefHeight="25.0" prefWidth="275.0" />
+      <Button fx:id="scan" layoutX="237.0" layoutY="88.0" mnemonicParsing="false" onAction="#handleScanAction" prefHeight="25.0" prefWidth="61.0" text="Scan" />
+      <Button fx:id="read" layoutX="148.0" layoutY="88.0" mnemonicParsing="false" onAction="#handleReadAction" prefHeight="25.0" prefWidth="61.0" text="Read" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+# example repository config (see "hg help config" for more info)
+
+[paths]
+default = https://bakitcan32@bitbucket.org/balancy/markreaderserviceapp
+default-push = https://bakitcan32@bitbucket.org/balancy/markreaderserviceapp
+
